@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "contracts",
+    "server"
+  ],
+  "version": "0.0.1",
+  "npmClient": "npm"
+}

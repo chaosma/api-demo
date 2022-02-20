@@ -1,0 +1,28 @@
+{
+    "name": "api-contracts",
+    "version": "0.0.1",
+    "description": "",
+    "main": "build/index.js",
+    "scripts": {
+        "watch": "tsc --watch",
+        "hardhat": "./scripts/runHardhat.sh",
+        "compileSol": "./scripts/compileSol.sh",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.2",
+        "argparse": "^1.0.10",
+        "hardhat": "^2.0.11",
+        "hardhat-artifactor": "^0.2.0",
+        "hardhat-contract-sizer": "^2.0.3",
+        "module-alias": "^2.2.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.21",
+        "@types/node": "^14.14.35",
+        "ethers": "^5.0.32",
+        "shelljs": "^0.8.4",
+        "truffle-artifactor": "^4.0.30",
+        "ts-jest": "^26.5.4"
+    }
+}
